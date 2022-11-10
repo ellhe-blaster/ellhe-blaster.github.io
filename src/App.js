@@ -1,161 +1,72 @@
-import React from 'react'
-import './App.css'
+import React from 'react';
+import './App.css'; 
 
-export default function App() {
-  return (
+export default function App() {  
+  return ( 
     <>
-    <header className="header">
-      <div className="container">
-        <div className="header__body">
-          <a href="/">
-            Main
-          </a>
-        </div>
-      </div>
-    </header>
+	<div className="lines"></div>
+	
+ <div className="main">
+  <div className="noise"></div>
+  <div className="header">
+   ✧ ellhe-blaster site (or Something) ✧
+  </div>
+  <div className="row">
+   <div className="column side">
+    <div className="icon"></div>
+	<div className="text">✧ About Me ✧<br/> Hi hello i am ellhe-blaster (<a href="https://twitter.com/NyuhtHzagok">NyuhtHzagok</a> on @twitter) i am a full-stack developer enthusiast who like video games.</div>
 
-    <main className="main">
-      <section className="section-block1">
-        <div className="block1">
-          <div className="container"> 
-            <div className="block1__body">
-              <div className="block1__item">
-                <div className="face1">
-                  <div className="circle1">
-                    <div className="indicator1"></div>
-                  </div> 
-                  <div className="circle1" style={{marginLeft:" 5px"}}>
-                    <div className="indicator1"></div>
-                  </div>
-                </div>
-                <div className="face1 face2">
-                  <div className="circle1">
-                    <div className="indicator2"></div>
-                  </div>
-                  <div className="circle1" style={{marginLeft:" 2px"}}>
-                    <div className="indicator2"></div>
-                  </div>
-                </div>
-                <div className="face1 face3">
-                  <div className="circle1">
-                    <div className="indicator3"></div>
-                  </div>
-                  <div className="circle1" style={{marginLeft:" 1px"}}>
-                    <div className="indicator3"></div>
-                  </div>
-                </div>
-              </div>
-              <div className="block1__item">
-                <h1 className="block1__title">ellhe-blaster</h1>
-                <span className="block1__sub-title"> full-stack developer </span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-    
-      <section className="section-block-form">
-        <div className="block-form">
-          <div className="block-form__img1"></div>
-          <div className="container">
-            <div className="block-form__body">
-              <div className="block-form__item">
-                <h2 className="block-form__title">
-                  drop us a line to get what you need
-                </h2>
-              </div>
-              <div className="block-form__item">
-                <div className="block-form__img2">
-                  <div className="face">
-                    <div className="circle">
-                      <div className="indicator"></div>
-                    </div>
-                    <div className="circle" style={{marginLeft:" 5px"}}>
-                      <div className="indicator"></div>
-                    </div>
-                  </div>
-                </div>
+    <div className="text">
+     <center>
+	   <form action="http://www.myspacegens.com/handler.php?gen=redirect" method="post"><select name="url" style={{width: "150px", height: "20px", backgroundColor: "#ffffff", color:"#000", border: "none"}}>
+        <option value="/">home</option>
+        <option value="https://github.com/ellhe-blaster">github</option>
+        <option value="https://discord.gg/3R4G2y3b">discord</option>
+        <option value="email">linkity 2</option>
+		
+       </select><input type="submit" style={{backgroundColor: "#ffffff", color: "#000", border: "none"}} value="Go!"/></form>
+     </center>
+    </div>
+   </div>
+   <div className="column middle">
+   <div className="heading">ellhe-blaster</div>
+    <div className="inner">Welcome to my personal site. Credit is very much appreciated ^^
+     <div className="tags">#Enjoy</div>
+    </div>
 
-                <form className="form"> 
-                  <p className="block-form__descr">all fields are required</p>
-                  <input
-                    id="Name"
-                    type="text"
-                    className="form__input"
-                    name="entry.1454992494"
-                    placeholder="your name"
-                    required
-                  />
-                  <input
-                    id="Mail"
-                    type="email"
-                    className="form__input"
-                    name="entry.12738361"
-                    placeholder="example@mail.com"
-                    required
-                  />
-                  <input
-                    id="Phone"
-                    type="text"
-                    className="form__input js-phone-input"
-                    name="entry.665628659"
-                    placeholder="phone number"
-                    required
-                    minlength="4"
-                    maxlength="20"
-                  />
-                  <textarea
-                    id="Quession"
-                    name="entry.991843766"
-                    className="form__textarea"
-                    placeholder="your issue"
-                    required
-                            ></textarea>
-                   <input type="submit" value="send" className="btn"></input> 
-                   
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="block-form__popup">
-          <div className="block-form__popup-inner">
-            <button className="block-form__popup-close js-close-button"></button>
-            <p className="block-form__popup-inner-text">Thanks for the inquiry!<br/>We will contact you soon</p>
-          </div>
-        </div>
-      </section>
-    </main>
-    <footer className="footer">
-      <div className="container">
-        <div className="footer__body">
-          <div className="footer__item">
-            <a href="mailto:danielprisco09@gmail.com" className="footer__a">
-              <div className="icons8-gmail-logo"></div> 
-            </a> 
-            
-            <a href="https://github.com/ellhe-blaster" className="footer__a">
-              <div className="icons8-github"></div>
-              <span className="footer__a-span"></span>
-            </a>
-            
-            <a href="https://discord.gg/GxApMgES"  >
-              <div className="icons8-discord"></div>  
-            </a>
-            
-            <a href="https://twitter.com/NyuhtHzagok" className="footer__b">
-              <div className="icons8-twitter"></div> 
-            </a>
-            
-          </div>
-            
-          <div className="footer__item">
-            
-            <p className="footer__p">@2022. All rights reserved</p>
-          </div>
-        </div>
-      </div>
-    </footer> 
+    <div className="heading">INTRO</div>
+    <div className="inner">
+     <h1>INTRO</h1> 
+     <p> Developing programs related to backend platforms or microservices</p>
+	 <p>I currently work with programs related to databases, user interface design, in conjunction with algebraic animations, algorithms and competitive programming...</p> 
+	 <hr/>
+	 <a href="https://stackoverflow.com/users/11717481/ellhe-blaster"><img src="https://stackoverflow.com/users/flair/11717481.png" style={{width:"300px", height:"77px"}} alt="profile for ellhe-blaster at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for ellhe-blaster at Stack Overflow, Q&amp;A for professional and enthusiast programmers"/></a>
+     <br/>
+	 <br/>
+     <img style={{width:"300px"}} alt="media-source" src="https://www.codewars.com/users/hexorhex/badges/micro"/>
+     <br/>
+	 <br/> 
+	 <hr/>
+     <p></p>
+     <ul>
+      <li>StackOverflow </li>
+      <li>CodeWars </li>
+      <li>YouTube <a href="https://www.youtube.com/channel/UCGYdqT2iXAQb7hsgJdK5TUQ" target="blank">channel</a></li>
+     </ul>
+
+     <blockquote cite="http://www.worldwildlife.org/who/index.html">
+      Do not forget to suscribe!<br/> 
+	  please leave any feedback.
+     </blockquote>
+
+     <div className="tags"> this site is available thanks to ©<a href="https://es.squarespace.com/" target="blank">squarespace </a> them and their team have been very helpful </div>
+    </div>
+
+   </div>
+
+  </div> 
+  </div> 
   </>
-  )
+
+) 
 }
