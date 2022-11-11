@@ -1,7 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './App.css'; 
 
-export default function App() {  
+const options = [
+  { value: "https://ellhe-blaster.github.io", label: "intro" },
+  { value: "https://github.com/ellhe-blaster", label: "github" },
+  { value: "https://discord.gg/3R4G2y3b", label: "discord" }
+];
+
+export default function App() { 
+  const [url, setUrl] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    window.location = url;
+  };
+
+  const handleChange = (e) => {
+    setUrl(e.target.value);
+  };
+  
   return ( 
     <>
 	<div className="lines"></div>
@@ -18,15 +35,20 @@ export default function App() {
 
     <div className="text">
      <center>
-	   <form >
-	    <select onChange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" style={{width: "150px", height: "20px", backgroundColor: "#ffffff", color:"#000", border: "none"}}>
-        <option value="https://ellhe-blaster.github.io">intro</option>
-        <option value="https://github.com/ellhe-blaster">github</option>
-        <option value="https://discord.gg/3R4G2y3b">discord</option> 
-		
-       </select>
-	   <input type="submit" style={{backgroundColor: "#ffffff", color: "#000", border: "none"}} value="Go!"/></form>
-     </center>
+	     <form onSubmit={handleSubmit}>
+      <select required onChange={handleChange} defaultValue="">
+        <option disabled hidden value="">
+          intro
+        </option>
+        {options.map(({ value, label }, i) => (
+          <option key={i} value={value}>
+            {label}
+          </option>
+        ))}
+      </select>
+      <button type="submit">Go!</button>
+    </form> 
+	</center>
     </div>
    </div>
    <div className="column middle">
