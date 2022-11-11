@@ -18,13 +18,14 @@ export default function App() {
 
     <div className="text">
      <center>
-	   <form action="http://www.myspacegens.com/handler.php?gen=redirect" method="post"><select name="url" style={{width: "150px", height: "20px", backgroundColor: "#ffffff", color:"#000", border: "none"}}>
-        <option value="/">home</option>
+	   <form >
+	    <select onChange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);" style={{width: "150px", height: "20px", backgroundColor: "#ffffff", color:"#000", border: "none"}}>
+        <option value="https://ellhe-blaster.github.io">intro</option>
         <option value="https://github.com/ellhe-blaster">github</option>
-        <option value="https://discord.gg/3R4G2y3b">discord</option>
-        <option value="email">linkity 2</option>
+        <option value="https://discord.gg/3R4G2y3b">discord</option> 
 		
-       </select><input type="submit" style={{backgroundColor: "#ffffff", color: "#000", border: "none"}} value="Go!"/></form>
+       </select>
+	   <input type="submit" style={{backgroundColor: "#ffffff", color: "#000", border: "none"}} value="Go!"/></form>
      </center>
     </div>
    </div>
