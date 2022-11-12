@@ -63,10 +63,10 @@ export default function App() {
      <p> Developing programs related to backend platforms or microservices</p>
 	 <p>I currently work with programs related to databases, user interface design, in conjunction with algebraic animations, algorithms and competitive programming...</p> 
 	 <hr/>
-	 <a href="https://stackoverflow.com/users/11717481/ellhe-blaster"><img src="https://stackoverflow.com/users/flair/11717481.png" style={{width:"300px", height:"77px"}} alt="profile for ellhe-blaster at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for ellhe-blaster at Stack Overflow, Q&amp;A for professional and enthusiast programmers"/></a>
+	 <a href="https://stackoverflow.com/users/11717481/ellhe-blaster"><img className="imgembed" src="https://stackoverflow.com/users/flair/11717481.png" style={{width:"300px", height:"77px"}} alt="profile for ellhe-blaster at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for ellhe-blaster at Stack Overflow, Q&amp;A for professional and enthusiast programmers"/></a>
      <br/>
 	 <br/>
-     <img style={{width:"300px"}} alt="media-source" src="https://www.codewars.com/users/hexorhex/badges/micro"/>
+     <img style={{width:"300px"}} className="imgembed" alt="media-source" src="https://www.codewars.com/users/hexorhex/badges/micro"/>
      <br/>
 	 <br/> 
 	 <hr/>
