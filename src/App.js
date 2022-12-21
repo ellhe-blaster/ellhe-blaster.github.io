@@ -31,7 +31,7 @@ export default function App() {
   <div className="row">
    <div className="column side">
     <div className="icon"></div>
-	<div className="text">✧ About Me ✧<br/> Hi hello i am ellhe-blaster (<a href="https://twitter.com/NyuhtHzagok">NyuhtHzagok</a> on @twitter) i am a full-stack developer enthusiast who like video games.</div>
+	<div className="text">✧ About Me ✧<br/> I am a developer enthusiast who like video games.</div>
 
     <div className="text">
      <center>
@@ -53,7 +53,7 @@ export default function App() {
    </div>
    <div className="column middle">
    <div className="heading">ellhe-blaster</div>
-    <div className="inner">Welcome to my personal site. Credit is very much appreciated ^^
+    <div className="inner">Welcome to my personal site ^^
      <div className="tags">#Enjoy</div>
     </div>
 
@@ -72,8 +72,6 @@ export default function App() {
 	 <hr/>
      <p></p>
      <ul>
-      <li>StackOverflow </li>
-      <li>CodeWars </li>
       <li>YouTube <a href="https://www.youtube.com/channel/UCGYdqT2iXAQb7hsgJdK5TUQ" target="blank">channel</a></li>
      </ul>
 
@@ -82,7 +80,7 @@ export default function App() {
 	  please leave any feedback.
      </blockquote>
 
-     <div className="tags"> this site is available thanks to ©<a href="https://es.squarespace.com/" target="blank">squarespace </a> them and their team have been very helpful </div>
+     <div className="tags"> this site is available thanks to <a href="https://es.squarespace.com/" target="blank">@squarespace </a> them and their team have been very helpful </div>
     </div>
 
    </div>
