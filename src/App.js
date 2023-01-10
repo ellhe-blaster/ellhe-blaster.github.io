@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import './App.css'; 
 
 const options = [
-  { value: "https://ellhe-blaster.github.io", label: "intro" },
-  { value: "https://github.com/ellhe-blaster", label: "github" },
+  { value: "https://wkq8y7xzk.github.io", label: "intro" },
+  { value: "https://github.com/wkq8y7xzk", label: "github" },
   { value: "https://discord.gg/3R4G2y3b", label: "discord" }
 ];
 
