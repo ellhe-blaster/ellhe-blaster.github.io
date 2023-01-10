@@ -26,7 +26,7 @@ export default function App() {
  <div className="main">
   <div className="noise"></div>
   <div className="header">
-   ✧ ellhe-blaster site (or Something) ✧
+   ✧ wkq8y7xzk site (or Something) ✧
   </div>
   <div className="row">
    <div className="column side">
@@ -52,7 +52,7 @@ export default function App() {
     </div>
    </div>
    <div className="column middle">
-   <div className="heading">ellhe-blaster</div>
+   <div className="heading">wkq8y7xzk</div>
     <div className="inner">Welcome to my personal site ^^
      <div className="tags">#Enjoy</div>
     </div>
@@ -61,7 +61,7 @@ export default function App() {
     <div className="inner">
      <h1>INTRO</h1> 
      <p> Developing programs related to backend platforms or microservices</p>
-	 <p>I currently work with programs related to databases, user interface design, in conjunction with algebraic animations, algorithms and competitive programming...</p> 
+	 <p>I currently work with programs related to database, user interface design, in conjunction with algebraic animations, algorithms and competitive programming...</p> 
 	 <hr/>
 	 <a href="https://stackoverflow.com/users/11717481/ellhe-blaster"><img className="imgembed" src="https://stackoverflow.com/users/flair/11717481.png" style={{width:"300px", height:"77px"}} alt="profile for ellhe-blaster at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for ellhe-blaster at Stack Overflow, Q&amp;A for professional and enthusiast programmers"/></a>
      <br/>
